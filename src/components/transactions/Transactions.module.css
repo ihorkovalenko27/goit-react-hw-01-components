@@ -1,0 +1,36 @@
+.transaction {
+  max-width: 400px;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 16px;
+  color: gray;
+}
+
+.thead {
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid rgb(204, 204, 204, 0.5);
+  background-color: #32a1ce;
+}
+
+.tbody {
+  padding: 10px;
+}
+
+.thead th,
+.tbody td {
+  min-width: 300px;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.thead th:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.tbody tr:nth-child(even) {
+  background-color: rgba(204, 204, 204, 0.2);
+}
